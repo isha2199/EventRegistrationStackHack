@@ -393,6 +393,11 @@
 		</script> 
 		</fieldset>
 		<button id="subm" type="submit" class="registerbtn" name='submit1'><b>Register<b></button>
+		<script>
+			document.getElementById("subm").onclick = function () {
+				location.href = "register.html";
+			};
+		</script>
 		<div class="container signin" style="background-color: rgb(255, 255, 255);outline: none;
 		color: #111111;padding: 16px 20px;margin: 8px 0;border: none;cursor: pointer;width: 100%;opacity: 0.9; font-size: 16px; border: none; border-radius: 10px; box-shadow: 0 4px #999;">
 			<p>Already have an account? <a href="login.html">Sign in</a></p>
