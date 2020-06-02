@@ -121,7 +121,12 @@
 		<label for="psw"><b>Password</b></label>
 		<input type="password" placeholder="Enter Password" name="psw" required>
         
-		<button type="submit" style="background-color:#123456">Login</button>
+		<button id="subm" type="submit" style="background-color:#123456">Login</button>
+		<script>
+			document.getElementById("subm").onclick = function () {
+				location.href = "register.html";
+			};
+		</script>
 		<label>
 			<input type="checkbox" checked="checked" name="remember"> Remember me
 		</label>
